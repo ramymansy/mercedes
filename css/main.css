@@ -1,0 +1,99 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Times New Roman", Times, serif;
+  user-select: none;
+  background-color: black;
+}
+.header {
+  position: relative;
+}
+.header .nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: -20px;
+}
+.header .container .nav .menu {
+  width: 25px;
+  cursor: pointer;
+}
+.header .container .nav .logo {
+  width: 50px;
+  cursor: pointer;
+}
+.header .container .nav .search {
+  width: 25px;
+  cursor: pointer;
+}
+.landing {
+  position: relative;
+  justify-content: center;
+  align-items: center;
+}
+.landing p.all {
+  font-family: "Times New Roman", Times, serif;
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: -35px;
+}
+.landing p.s {
+  font-family: "Times New Roman", Times, serif;
+  color: white;
+  font-size: 100px;
+  text-align: center;
+}
+.car {
+  position: relative;
+  margin-top: -40px;
+}
+.car img {
+  width: 100%;
+}
+.footer {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  color: white;
+  margin-top: 250px;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+}
+.content {
+  display: flex;
+  justify-content: center;
+}
+.luxury {
+  padding: 0 40px;
+  justify-content: center;
+  border-right: 2px solid white;
+}
+.hp {
+  padding: 0 40px;
+  justify-content: center;
+  border-right: 2px solid white;
+}
+.twin {
+  padding: 0 40px;
+  justify-content: center;
+}
+.content h3 {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+}
+.content p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
